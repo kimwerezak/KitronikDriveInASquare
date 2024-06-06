@@ -9,5 +9,3 @@ def drive_square(speed_forward, speed_turn):
         Kitronik_Move_Motor.spin(Kitronik_Move_Motor.SpinDirections.LEFT, speed_turn)
         basic.pause(500)
     Kitronik_Move_Motor.stop()
-
-drive_square(20,27)
